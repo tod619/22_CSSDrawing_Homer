@@ -87,3 +87,35 @@ body {
     left: 25px;
     top: 40px;
 }
+
+.face-side-1 {
+    position: absolute;
+    width: 140px;
+    height: 60px;
+    background-color: #fed90f;
+    top: 185px;
+    left: 30px;
+}
+
+.face-side-2 {
+    position: absolute;
+    width: 40px;
+    height: 60px;
+    background-color: #fed90f;
+    top: 165px;
+    left: 22px;
+    transform: rotate(-11deg);
+    border-left: 1px solid #000;
+}
+
+.nose {
+    position: absolute;
+    width: 60px;
+    height: 32px;
+    background-color: #fed90f;
+    top: 175px;
+    left: 130px;
+    border-radius: 0 20px 20px 0;
+    border: 1px solid #000;
+    border-left: none;
+}
