@@ -186,3 +186,39 @@ body {
     top: 260px;
     left: 80px;
 }
+
+.neck {
+    position: absolute;
+    width: 125px;
+    height: 150px;
+    background-color: #fed90f;
+    top: 200px;
+    left: 28px;
+    border: 1px solid #000;
+    border-top: none;
+    border-bottom: none;
+    transform: rotate(2deg);
+}
+
+.collar-left {
+    position: absolute;
+    width: 110px;
+    height: 60px;
+    background-color: #fff;
+    top: 330px;
+    left: 10px;
+    transform: rotate(15deg);
+    border-radius: 10%;
+    border: 1px solid #000;
+}
+
+.collar-right {
+    position: absolute;
+    width: 20px;
+    height: 50px;
+    background-color: #fff;
+    top: 340px;
+    left: 150px;
+    transform: rotate(-20deg);
+    border: 1px solid #000;
+}
